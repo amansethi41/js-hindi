@@ -46,10 +46,43 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedin'));
+// console.log(tinderUser.hasOwnProperty('isLoggedin'));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructer: "hitesh"
+}
+
+// course.courseinstructer
+
+const {courseInstructer} = course
+
+console.log(courseInstructer);
+
+
+
+// const navbar = ({company}) => {
+    
+// }                      This is destructuring in js react
+
+// navbar(company = "hitesh")
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
